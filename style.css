@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: linear-gradient(to right, #08203e, #557c93);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 100px;;
+    border-radius: 20px;
+}
+.navigation-bar-links a{
+    margin-right: 30px;
+    color: #007FFF;
+}
+.navigation-bar-links{
+    margin-right: 50px;
+}
+.portfolio-icon-link {
+    margin-right: 350px;
+    margin-left: 175px;
+    color: #007FFF;
+}
+.portfolio-icon-link a{
+    color: #007FFF;
+}
+.body-content{
+    display: flex;
+    margin: auto;
+    padding: 50px;
+    width: 1500px;
+    border-radius: 20px;
+}
+.white-text-container{
+    margin-right: 300px;
+    font-size: 20px;
+}
+.rounded-profile-image img{
+    width: 400px;
+    border-radius: 200px;;
+}
+
+.hire-me-btn a{
+    background-color: #007FFF;
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: bold;
+}
