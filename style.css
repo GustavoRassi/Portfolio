@@ -10,41 +10,13 @@
 body{
     font-family: 'Poppins', sans-serif;
     color: white;
-    background-color: #242124;
+    background-color: #1b1f25;
     width: auto;
 }
 a{
     text-decoration: none;
 }
 
-.navigation-bar{
-    display: flex;
-    align-items: center;
-    background-color: #111111;
-    padding: 20px;
-    margin: 1em;
-    margin-bottom: 2em;;
-    border-radius: 20px;
-}
-.navigation-bar-links a{
-    margin-right: 30px;
-    color: #007FFF;
-}
-.navigation-bar-links a:hover{
-    color: white;
-}
-
-.navigation-bar-links ul{
-    display: flex;
-    list-style: none;
-}
-
-.navigation-bar-links{
-    margin-right: 4em;
-}
-.navigation-bar-links:hover{
-    color: white;
-}
 .portfolio-icon-link {
     margin-right: 30em;
     margin-left: 7em;
