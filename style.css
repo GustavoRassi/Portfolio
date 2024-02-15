@@ -11,14 +11,12 @@ body{
     font-family: 'Poppins', sans-serif;
     color: white;
     background-color: #242124;
+    width: auto;
 }
 a{
     text-decoration: none;
 }
-ul{
-    display: flex;
-    list-style: none;
-}
+
 .navigation-bar{
     display: flex;
     align-items: center;
@@ -31,6 +29,14 @@ ul{
 .navigation-bar-links a{
     margin-right: 30px;
     color: #007FFF;
+}
+.navigation-bar-links a:hover{
+    color: white;
+}
+
+.navigation-bar-links ul{
+    display: flex;
+    list-style: none;
 }
 
 .navigation-bar-links{
@@ -70,4 +76,19 @@ ul{
     color: white;
     border-radius: 10px;
     padding: 15px;
+}
+
+.service-plan-card{
+    width: 30%;
+    background-color: #464046;
+    margin: 2em;
+    padding: 1.5em;
+    border-radius: 1.5em;
+}
+.service-plans{
+    display: flex;
+    height: 70%;
+}
+.service-plan-card a{
+    text-transform: uppercase;
 }
