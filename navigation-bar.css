@@ -2,38 +2,25 @@
 .navigation-bar{
     display: flex;
     align-items: center;
-    background-color: #1b1f25;
     padding: 2em;
-    margin-bottom: 2em;;
-}
-
-.navigation-bar-links a{
-    margin-right: 30px;
-    color: #007FFF;
+    width: auto;
 }
 
 .navigation-bar-links a:hover{
     color: white;
 }
 
-.navigation-bar-links ul{
-    display: flex;
-    list-style: none;
-}
-
-.navigation-bar-links{
-    margin-right: 4em;
+.navigation-bar-links a{
+    margin: 3%;
 }
 
 .navigation-bar-links:hover{
     color: white;
-    
 }
 
 .portfolio-icon-link {
-    margin-right: 20em;
-    margin-left: 7em;
-    color: #007FFF;
+    margin-left: 5%;
+    margin-right: 20%;
 }
 
 .portfolio-icon-link a{
