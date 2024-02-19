@@ -3,48 +3,28 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: none;
     outline: 0;
+    box-sizing: content-box;
 }
 
 body{
     font-family: 'Poppins', sans-serif;
     color: white;
     background-color: #1b1f25;
-    width: auto;
+    width: 100%;
 }
 a{
     text-decoration: none;
 }
 
-.portfolio-icon-link {
-    margin-right: 30em;
-    margin-left: 7em;
-    color: #007FFF;
-}
-
-.portfolio-icon-link a{
-    color: #007FFF;
-}
-
-.body-content{
+.greeting-section{
     display: flex;
-    margin: auto;
-    padding: 5em;
-    width: 80%;
-    border-radius: 20px;
-    background-color: transparent;
     align-items: center;
 }
 
-.white-text-container{
-    margin-right: 300px;
-    font-size: 20px;
-}
-
 .rounded-profile-image img{
-    width: 400px;
-    border-radius: 200px;;
+    width: 65%;
+    border-radius: 100%;
 }
 
 .bg-custom-color{
@@ -62,4 +42,9 @@ a{
 
 .product-card a:hover{
     text-decoration: underline;
+}
+
+.learn-more-link{
+    text-transform: uppercase;
+    color: white;
 }
