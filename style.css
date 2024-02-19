@@ -22,9 +22,11 @@ a{
     margin-left: 7em;
     color: #007FFF;
 }
+
 .portfolio-icon-link a{
     color: #007FFF;
 }
+
 .body-content{
     display: flex;
     margin: auto;
@@ -34,33 +36,30 @@ a{
     background-color: transparent;
     align-items: center;
 }
+
 .white-text-container{
     margin-right: 300px;
     font-size: 20px;
 }
+
 .rounded-profile-image img{
     width: 400px;
     border-radius: 200px;;
 }
 
-.hire-me-btn a{
+.bg-custom-color{
     background-color: #007FFF;
     color: white;
-    border-radius: 10px;
-    padding: 15px;
 }
 
-.service-plan-card{
-    width: 30%;
-    background-color: #464046;
-    margin: 2em;
-    padding: 1.5em;
+.product-card{
+    align-items: center;
+    background-color: #3e495a;
     border-radius: 1.5em;
+    margin: 2em;
+    padding: 2em;
 }
-.service-plans{
-    display: flex;
-    height: 70%;
-}
-.service-plan-card a{
-    text-transform: uppercase;
+
+.product-card a:hover{
+    text-decoration: underline;
 }
