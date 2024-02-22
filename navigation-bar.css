@@ -2,28 +2,24 @@
 .navigation-bar{
     display: flex;
     align-items: center;
-    padding: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 8em;
     width: auto;
+    background-color: #0B7A75;
+}
+
+.navigation-bar-links{
+    display: flex;
+    justify-content: end;
 }
 
 .navigation-bar-links a:hover{
-    color: white;
+    color: #1b1f25;
 }
 
 .navigation-bar-links a{
-    margin: 3%;
-}
-
-.navigation-bar-links:hover{
+    margin-inline: 5%;
     color: white;
-}
-
-.portfolio-icon-link {
-    margin-left: 5%;
-    margin-right: 20%;
-}
-
-.portfolio-icon-link a{
-    color: #007FFF;
-    font-size: 1.5em;
+    font-size: 18px;
 }
