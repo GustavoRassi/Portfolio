@@ -27,10 +27,7 @@ a{
     border-radius: 100%;
 }
 
-.bg-custom-color{
-    background-color: #007FFF;
-    color: white;
-}
+
 
 .product-card{
     align-items: center;
@@ -47,4 +44,8 @@ a{
 .learn-more-link{
     text-transform: uppercase;
     color: white;
+}
+
+#About-Me{
+    background-color: #0B7A75;
 }
