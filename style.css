@@ -17,35 +17,17 @@ a{
     text-decoration: none;
 }
 
-.greeting-section{
-    display: flex;
-    align-items: center;
-}
-
-.rounded-profile-image img{
-    width: 65%;
-    border-radius: 100%;
-}
-
-
-
-.product-card{
-    align-items: center;
-    background-color: #3e495a;
-    border-radius: 1.5em;
-    margin: 2em;
-    padding: 2em;
-}
-
-.product-card a:hover{
-    text-decoration: underline;
-}
-
-.learn-more-link{
-    text-transform: uppercase;
-    color: white;
-}
-
 #About-Me{
     background-color: #0B7A75;
+}
+
+.secondary-color{
+    background-color: #0B7A75;
+}
+
+.btn{
+    background-color: #0B7A75;
+}
+.btn:hover{
+    background-color: #085551;
 }

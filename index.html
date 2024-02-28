@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Personal Portfolio | Home</title>
+        <title>Personal Portfolio</title>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
@@ -14,18 +14,18 @@
     </head>
     <body>
         <section id="Home">
-            <div class="container navigation-bar">
-                <div class="portfolio-icon-link" style="color: #007FFF">
-                    <a href="index.html">
-                        <h1 class="fs-1 text-light">Portfolio</h1>
-                    </a>
+            <div class="secondary-color p-4 d-flex sticky-top">
+                <a href="#Home">
+                    <h1 class="fs-1 text-light">Portfolio.</h1>
+                </a>
+                <div class="container d-flex justify-content-end">
+                    <nav class="navbar">
+                        <a href="#Home" class="text-light mx-5">Home</a></li>
+                        <a href="#Portfolio" class="text-light mx-5">Portfolio</a></li>
+                        <a href="#Resume" class="text-light mx-5">Resume</a></li>
+                        <a href="#About-Me" class="text-light mx-5">About Me</a></li>
+                    </nav>
                 </div>
-                <nav class="col navigation-bar-links">
-                    <a href="#Home">Home</a></li>
-                    <a href="#About-Me">About Me</a></li>
-                    <a href="#Resume">Resume</a></li>
-                    <a href="#Portfolio">Portfolio</a></li>
-                </nav>
             </div>
             <div class="container py-5">
                 <div class="p-5">
@@ -34,28 +34,28 @@
                     </div>
                     <br>
                     <div class="col ms-auto text-center"  style="font-size: 20%;">
-                        <h2>Hi, <br>I'm Gustavo 👋🏽 <br>Junior Computer Science Student</h2>
+                        <h2>Hi, <br>I'm Gustavo Rassi 👋🏽 <br>Junior Computer Science Student & <br>Web Development Enthusiast</h2>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="About-Me">
+        <section id="About-Me" class="">
             <div class="container py-5">
                 <h2 class="text-center text-uppercase fs-1">About Me</h2>
                 <hr class="mb-5 mx-5">
                 <div class="row">
                     <div class="col-lg-4 ms-auto">
-                        <p class="lead">I'm a Junior student at the University of Puerto Rico at Arecibo. My interests are Software & Web Development, including Backend Development. Currently, I am practicing Frontend with HTML5, CSS3 and learning JavaScript.</p>
+                        <p class="lead">I'm a junior student at the University of Puerto Rico at Arecibo. My interests are Software & Web Development, including Backend Development. This website is a way for me to practice HTML5 and CSS3 with Bootstrap, as well as JavaScript when I add interactivity later on. Also, I am actively enrolled on a Web Development course on <strong><a class="link-light bg-primary rounded-1 p-1" href="https://www.coursera.org/specializations/web-design" target="_blank">Coursera</a></strong>.</p>
                     </div>
                     <div class="col-lg-4 me-auto">
-                        <p class="lead">As an undergrad student, I am actively seeking internship opportunities to apply, sharpen and expand on my skills on real-world experiences. I am willing to contribute either individually or collaboratively for my personal and professional growth.</p>
+                        <p class="lead">As an undergrad student, I am actively seeking internship opportunities to apply, sharpen and expand on my skills with real-world experience. I am willing to contribute either individually or collaboratively for my personal and professional growth, as well as for the company or organization.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="About Me">
+        <section id="Portfolio">
             <div class="container py-5">
                 <h2 class="text-center text-uppercase fs-1 text-light">Portfolio</h2>
                 <hr class="mb-5 mx-5">
@@ -67,6 +67,11 @@
                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum voluptas architecto labore asperiores numquam rerum veritatis neque, harum provident similique quaerat consequatur, vel molestiae velit illo deserunt quae modi.</p>
                     </div>
                 </div>
+            </div>
+            <div class="container mb-3 text-end sticky-bottom">
+                <a href="#Home" class="btn secondary-color text-light">
+                    ^
+                </a>
             </div>
         </section>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
