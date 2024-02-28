@@ -1,7 +1,7 @@
 # Description
 * Showcase of my portfolio webpage, highlighting my skills in web development.
 * It is an ongoing project, so updates will be occurring frequently.
-* View webpage: https://gustavorassi.github.io/Portfolio/
+* Visit webpage: https://gustavorassi.github.io/Portfolio/
 
 # What I Learned
 * Use Bootstrap and JS script to optimize the styling infrastructure of the project for a more consistent visual and appealing website presentation.
