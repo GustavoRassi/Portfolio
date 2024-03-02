@@ -10,15 +10,12 @@
 body{
     font-family: 'Poppins', sans-serif;
     color: white;
-    background-color: #1b1f25;
+    background-color: #1b1f25 !important;
+    background-color: #F1F1F1;
     width: 100%;
 }
 a{
     text-decoration: none;
-}
-
-#About-Me{
-    background-color: #0B7A75;
 }
 
 .secondary-color{
